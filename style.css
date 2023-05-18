@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  position: fixed;
+  color: white;
+  height: 100vh;
+}
+
+.bg-custom-primary {
+  background-color: #565c5e;
+}
+
+.bg-custom-secondary {
+  background-color: #b5c2c7;
+}
+
+.bg-custom-comment {
+  background-color: #dce4e7;
+}
+
+.landing-photo {
+  background-image: url("https://images.pexels.com/photos/1542252/pexels-photo-1542252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  opacity: 0.6;
+}
+
+#social-main {
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+#navbarLinks ul {
+  margin-bottom: 0px;
+}
+#navbarLinks ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+#navbarLinks ul li a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.sidenav {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.list-group-flush > .list-group-item {
+  border: 0px;
+}
+
+#chat {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: #565c5e;
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+}
+
+.box {
+  width: 100%;
+  height: 100px;
+  background-color: gray;
+}
+
+.list-push {
+  margin-right: 50px;
+}
+
+.freeup {
+  margin-bottom: 50px;
+}
